@@ -1,0 +1,124 @@
+﻿body {
+  margin: 0px;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  overflow: auto;
+  padding: 0px;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.8em;
+  background-color: #fff;
+}
+::selection { background:#ddd; }
+::-moz-selection { background:#ddd; }
+
+a {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px dashed #444;
+}
+a:hover{ color: #999; }
+a:active{ color:#faa700; border-color: #faa700; }
+
+p{margin:1em 0;}
+
+img{display: block; max-width: 100%; margin: auto;}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight:normal;
+  color:#111;
+  line-height:1em;
+}
+h1,h2 { font-family:"ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif; }
+h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; border-left:10px solid #dd7b97; padding: 5px 0 5px 10px; }
+h3{ font-size:1.5em; display: inline-block; border-bottom:1px solid silver; border-left:7px solid #dd7b97; padding: 2px 0 2px 3px; }
+h4{ font-size:1.5em; display: inline-block; border-bottom:1px solid silver; margin: 0; }
+h5{ font-size:1.2em; }
+h6{ font-size:1em; }
+
+hr { display: block; height: 0; border: 0; border-bottom: 1px solid silver; margin: 1em 0; padding: 0; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+table { border-collapse: collapse; border-spacing: 0; }
+td, th { vertical-align: top; padding: 4px 10px; border: 1px solid #bbb; }
+tr:nth-child(even) td, tr:nth-child(even) th { background: #eee; }
+dd { margin: 0 0 0 2em; }
+.dl-short dt {  
+  width : 130px;
+  float : left;
+  clear : both;
+}
+.dl-long dt { font-weight: bold; }
+
+kbd {
+  font-size: 0.8em;
+  font-family:sans-serif;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  padding: 0 5px;
+  margin: 1px 5px;
+  
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+#share li {
+  display: inline-block;
+}
+
+#share ul {
+  margin: 0;
+  padding: 0;
+}
+
+#share a {
+  font-family:sans-serif;
+  display: inline-block;
+  border: none;
+  width: 40px;
+  height: 30px;
+  
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+}
+#share a:hover {
+  color: #fff;
+}
+
+#share a:active {
+  color: #fff;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+.facebook {
+  background-color: #405d91;
+}
+.googleplus {
+  background-color: #dd4e42;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  padding: 0.5em;
+  margin: 1px;
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
